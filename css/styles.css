@@ -1,22 +1,22 @@
-:root {
+/* :root {
   --basic-color: #757575;
   --secondary-color: #212121;
   --accent-color: #2196f3;
   --background-color: #ffffff;
   --second-color: #2f303a;
   --grey-color: #f5f4fa;
-}
+} */
 
-body {
+/* body {
   padding-top: 80px;
   background-color: var(--background-color);
   color: var(--basic-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
+} */
 
-a {
+/* a {
   text-decoration: none;
   color: inherit;
 }
@@ -45,15 +45,15 @@ section {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 header {
   position: fixed;
@@ -73,6 +73,8 @@ header {
   align-items: center;
 }
 
+
+
 .nav {
   display: flex;
 }
@@ -88,18 +90,6 @@ header {
 
 .contacts__item:not(:last-child) {
   margin-right: 50px;
-}
-
-.logo {
-  margin-right: 93px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: #000000;
-}
-.logo-item {
-  color: var(--accent-color);
 }
 
 .nav__link {
@@ -193,7 +183,7 @@ header {
   color: var(--background-color);
 }
 
-.main-btn {
+/* .main-btn {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
@@ -218,7 +208,7 @@ header {
 .main-btn:focus {
   background-color: var(--background-color);
   color: var(--accent-color);
-}
+} */
 
 /* MODAL */
 
@@ -632,10 +622,7 @@ color: var(--background-color);
 
 /* FOOTER */
 
-.logo-footer {
-  margin: 0px;
-  color: var(--background-color);
-}
+
 
 .footer {
   padding-top: 60px;
@@ -766,9 +753,9 @@ color: var(--background-color);
   margin-left: 10px;
 }
 
-/* Портфолио */
+/* Portfolio */
 
-.hiden-title {
+.hidden-title {
   display: none;
 }
 
