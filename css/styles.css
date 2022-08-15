@@ -55,7 +55,7 @@ section {
   margin-right: auto;
 } */
 
-header {
+/* header {
   position: fixed;
   width: 100%;
   background: var(--background-color);
@@ -71,11 +71,26 @@ header {
 .header {
   display: flex;
   align-items: center;
+} */
+
+/* .logo {
+  margin-right: 93px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.logo-item {
+  color: var(--accent-color);
 }
 
+.logo-footer {
+  margin: 0px;
+  color: var(--background-color);
+} */
 
-
-.nav {
+/* .nav {
   display: flex;
 }
 
@@ -146,7 +161,7 @@ header {
 
 .contacts__icon {
   margin-right: 10px;
-}
+} */
 
 /* HERO */
 
