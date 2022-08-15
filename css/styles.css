@@ -165,7 +165,7 @@ section {
 
 /* HERO */
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -196,7 +196,7 @@ section {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
-}
+} */
 
 /* .main-btn {
   display: inline-block;
@@ -227,7 +227,7 @@ section {
 
 /* MODAL */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -379,10 +379,11 @@ textarea {
   letter-spacing: 0.03em;
 
   color: var(--basic-color); 
-}
+} */
 
-.checkbox__input {
   /* appearance: none; */
+
+/* .checkbox__input {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -424,11 +425,11 @@ textarea {
   width: 100%;
   height: 1px;
   background: var(--accent-color);
-}
+} */
 
 /* ADVANTAGE */
 
-.hidden-title {
+/* .hidden-title {
   display: none;
 }
 
@@ -467,11 +468,11 @@ textarea {
   font-size: 14px;
   line-height: 1.71;
   color: var(--basic-color);
-}
+} */
 
 /* WORK */
 
-.work {
+/* .work {
   padding-top: 0px;
 }
 
@@ -518,10 +519,10 @@ line-height: 1.14;
 text-align: center;
 color: var(--background-color);
 
-}
+} */
 
 /* TEAM */
-.team {
+/* .team {
   text-align: center;
   background-color: var(--grey-color);
 }
@@ -594,11 +595,11 @@ color: var(--background-color);
   line-height: 1.19;
   text-align: center;
   color: var(--basic-color);
-}
+} */
 
 /* CLIENTS */
 
-.clients-title {
+/* .clients-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -633,13 +634,11 @@ color: var(--background-color);
 .client__link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
-}
+} */
 
 /* FOOTER */
 
-
-
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--second-color);
@@ -683,9 +682,11 @@ color: var(--background-color);
 
 .community {
   margin-left: 70px;
-}
+} */
 
-.subscribe-title {
+/* SUBSCRIBE */
+
+/* .subscribe-title {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -766,15 +767,15 @@ color: var(--background-color);
 
 .subscribe-icon {
   margin-left: 10px;
-}
+} */
 
 /* Portfolio */
 
-.hidden-title {
+/* .hidden-title {
   display: none;
-}
+} */
 
-.filter {
+/* .filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -810,9 +811,9 @@ color: var(--background-color);
 .filter-btn:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
-}
+} */
 
-.portfolio__list {
+/* .portfolio__list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -891,4 +892,4 @@ color: var(--background-color);
 
 .portfolio__item:hover .project__overlay {
   transform: translateY(0);
-}
+} */
