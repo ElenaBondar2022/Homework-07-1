@@ -120,9 +120,7 @@ section {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.main-btn:hover,
-.main-btn:focus {
+.main-btn:hover, .main-btn:focus {
   background-color: var(--background-color);
   color: var(--accent-color);
 }
@@ -305,9 +303,7 @@ header {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   fill: var(--accent-color);
 }
 
@@ -339,6 +335,9 @@ header {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form__label:hover, .form__label:focus {
+  fill: var(--accent-color);
+}
 
 .label-comment {
   margin-bottom: 20px;
@@ -366,11 +365,7 @@ header {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form__input:hover,
-.form__input:focus,
-textarea:hover,
-textarea:focus {
+.form__input:hover, .form__input:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -380,13 +375,7 @@ textarea:focus {
           transform: translateY(50%);
   left: 12px;
 }
-
-.form__label:hover,
-.form__label:focus {
-  fill: var(--accent-color);
-}
-
-.form__input:focus ~ .form__item {
+.form__item:focus ~ .form__item {
   fill: var(--accent-color);
 }
 
@@ -398,6 +387,9 @@ textarea {
   width: 100%;
   min-height: 120px;
   resize: none;
+}
+textarea:hover, textarea:focus {
+  border: 1px solid var(--accent-color);
 }
 
 .checkbox {
@@ -431,7 +423,6 @@ textarea {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .checkbox__input:checked + .checkbox__item {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
@@ -458,7 +449,6 @@ textarea {
   position: relative;
   color: var(--accent-color);
 }
-
 .checkbox__link:after {
   content: " ";
   position: absolute;
@@ -640,9 +630,7 @@ textarea {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.networks__link:hover,
-.networks__link:focus {
+.networks__link:hover, .networks__link:focus {
   background-color: var(--accent-color);
   fill: var(--background-color);
 }
@@ -779,27 +767,27 @@ textarea {
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
-.subscribe__input ::-webkit-input-placeholder {
+.subscribe__input::-webkit-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscribe__input ::-moz-placeholder {
+.subscribe__input::-moz-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscribe__input :-ms-input-placeholder {
+.subscribe__input:-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscribe__input ::-ms-input-placeholder {
+.subscribe__input::-ms-input-placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-.subscribe__input ::placeholder {
+.subscribe__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
@@ -869,15 +857,13 @@ textarea {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.filter-btn:hover, .filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
 
 .filter-item:not(:last-child) {
   margin-right: 8px;
-}
-
-.filter-btn:hover,
-.filter-btn:focus {
-  background-color: var(--accent-color);
-  color: var(--background-color);
 }
 
 .hidden-title {
