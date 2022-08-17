@@ -535,7 +535,6 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-
 .work__list img {
   display: block;
 }
@@ -544,7 +543,6 @@ textarea {
   position: relative;
   display: inline;
 }
-
 .work__item:not(:last-child) {
   margin-right: 30px;
 }
