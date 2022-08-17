@@ -33,13 +33,13 @@
     border: 1px solid;
     border-color: rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-  }
   
-  .subscribe__input::placeholder {
+  & ::placeholder {
     font-size: 16px;
     line-height: 1.25;
   
     color: rgba(255, 255, 255, 0.6);
+  }
   }
   
   .subscribe-btn {
@@ -68,13 +68,13 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
   
-  .subscribe-btn:hover,
-  .subscribe-btn:focus {
+  &:hover,
+  &:focus {
     background-color: var(--background-color);
     color: var(--accent-color);
     fill: var(--accent-color);
+  }
   }
   
   .subscribe-icon {

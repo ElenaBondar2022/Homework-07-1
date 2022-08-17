@@ -2,8 +2,9 @@
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+}
 
-&-title {
+.hero-title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -12,8 +13,7 @@
   text-transform: uppercase;
   color: var(--background-color);
 }
-}
-  
+
 .main-background {
   max-width: 1600px;
   max-height: 600px;
