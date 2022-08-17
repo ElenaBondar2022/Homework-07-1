@@ -483,8 +483,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
 }
-
-.advantage__item:not(:last-child) {
+.advantage__list :not(:last-child) {
   margin-right: 30px;
 }
 
@@ -697,9 +696,7 @@ textarea {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.client__link:hover,
-.client__link:focus {
+.client__link :hover, .client__link :focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }

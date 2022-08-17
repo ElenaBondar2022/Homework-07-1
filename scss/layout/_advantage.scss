@@ -4,10 +4,9 @@
   
   .advantage__list {
     display: flex;
-  }
-  
-  .advantage__item:not(:last-child) {
+  & :not(:last-child) {
     margin-right: 30px;
+  }
   }
   
   .advantage__item {
