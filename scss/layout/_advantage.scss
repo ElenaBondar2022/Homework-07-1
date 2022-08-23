@@ -3,14 +3,23 @@
 }
 
 .advantage__list {
-  display: flex;
-& :not(:last-child) {
-  margin-right: 30px;
-}
+  @media screen and (min-width: 678px) {
+    display: flex;
+    & :not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  
 }
 
 .advantage__item {
+  @media screen and (min-width: 480px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
   width: calc((100% - 90px) / 4);
+}
 }
 
 .skills__box {
@@ -30,6 +39,10 @@
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-color);
+
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
 }
 
 .advantage-text {

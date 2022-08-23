@@ -14,11 +14,17 @@
 
 .subscribe-box {
   margin-left: 93px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    margin: 0px;
+  } 
 }
 
 .subscribe {
-  display: flex;
-  min-width: 570px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    min-width: 570px;
+  }
 }
 
 .subscribe__input {
@@ -43,6 +49,10 @@
 }
 
 .subscribe-btn {
+  @media screen and (max-width: 767px) {
+    margin: auto;
+    margin-top: 20px;
+  } 
   display: flex;
   margin-left: 12px;
   width: 200px;
