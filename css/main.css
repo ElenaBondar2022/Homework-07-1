@@ -84,8 +84,6 @@ section {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -100,6 +98,8 @@ section {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -110,6 +110,14 @@ section {
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 88px;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03;
+  }
 }
 
 .logo-item {
@@ -156,6 +164,12 @@ header {
   border-bottom: 1px solid #ececec;
   z-index: 9;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .header {
@@ -179,15 +193,17 @@ header {
   }
 }
 
-.contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-}
 @media screen and (max-width: 767px) {
   .contacts {
     display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
   }
 }
 
@@ -197,6 +213,19 @@ header {
 
 .contacts__item:not(:last-child) {
   margin-right: 50px;
+}
+@media screen and (min-width: 768px) {
+  .contacts__item:not(:last-child) {
+    margin-right: 0px;
+    margin-left: 84px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__item {
+    margin-left: 84px;
+  }
 }
 
 .nav__link {
@@ -228,6 +257,11 @@ header {
   background: var(--accent-color);
   border-radius: 2px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .nav__link--current::after {
+    bottom: -2px;
+  }
+}
 
 .contacts__link {
   display: -webkit-box;
@@ -245,6 +279,12 @@ header {
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
+}
+@media screen and (min-width: 768px) {
+  .contacts__link {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 }
 
 .contacts__icon {
@@ -315,7 +355,6 @@ header {
 @media screen and (max-width: 1199px) {
   .modal {
     min-width: 450px;
-    min-height: 609px;
   }
 }
 
