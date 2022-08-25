@@ -907,6 +907,18 @@ textarea:hover, textarea:focus {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .tablet-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-address {
     text-align: center;
