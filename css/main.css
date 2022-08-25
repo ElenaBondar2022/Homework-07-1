@@ -296,6 +296,12 @@ header {
   padding-bottom: 200px;
   text-align: center;
 }
+@media screen and (max-width: 1199px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
 
 .hero-title {
   margin-bottom: 30px;
@@ -305,6 +311,12 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--background-color);
+}
+@media screen and (max-width: 1199px) {
+  .hero-title {
+    font-size: 26px;
+    line-height: 1.61;
+  }
 }
 
 .main-background {
@@ -552,14 +564,28 @@ textarea:hover, textarea:focus {
   display: none;
 }
 
-@media screen and (min-width: 678px) {
+.advantage__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (min-width: 480px) {
   .advantage__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .advantage__list :not(:last-child) {
-    margin-right: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantage__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: -15px;
   }
 }
 
@@ -568,9 +594,20 @@ textarea:hover, textarea:focus {
     margin-bottom: 30px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .advantage__item {
+    width: 354px;
+    margin: 15px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .advantage__item {
     width: calc((100% - 90px) / 4);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advantage__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
@@ -598,7 +635,7 @@ textarea:hover, textarea:focus {
   text-transform: uppercase;
   color: var(--secondary-color);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .advantage-name {
     text-align: center;
   }
@@ -613,7 +650,7 @@ textarea:hover, textarea:focus {
 .work {
   padding-top: 0px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .work {
     display: none;
   }
@@ -688,6 +725,12 @@ textarea:hover, textarea:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -698,12 +741,19 @@ textarea:hover, textarea:focus {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 1199px) {
   .team__item {
     margin-bottom: 30px;
+    padding-bottom: 24px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .team__item {
+    margin: 15px;
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .team__item:not(:last-child) {
     margin-right: 30px;
   }
@@ -795,7 +845,7 @@ textarea:hover, textarea:focus {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .client__item {
     margin: 15px;
   }
@@ -832,6 +882,11 @@ textarea:hover, textarea:focus {
 @media screen and (max-width: 767px) {
   .client__link {
     width: 210px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .client__link {
+    width: 226px;
   }
 }
 
