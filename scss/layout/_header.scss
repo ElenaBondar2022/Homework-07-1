@@ -33,18 +33,30 @@ header {
 }
 
 .menu-btn {
-  @media screen and  (max-width: 767px) {
-    display: inline-flex;
-    padding: 0;
-    
-    border: none;
-    background-color: transparent
-    }
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
-    display: none;
-}
+@media screen and  (max-width: 767px) {
+  display: inline-flex;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  background-color: transparent
+  }
+@media screen and (min-width: 768px) {
+  display: none;
+  }
 }
 
 .menu-btn .icon-close {
   display: none;
+}
+
+.menu-btn.is-open .icon-close {
+  display: block;
+}
+
+.menu-btn.is-open .icon-menu {
+  display: none;
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  fill: var(--accent-color);
 }
