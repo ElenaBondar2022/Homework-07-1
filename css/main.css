@@ -1313,6 +1313,9 @@ textarea:hover, textarea:focus {
   height: 40px;
   padding: 0;
 }
+.menu-btn:hover, .menu-btn:focus {
+  fill: var(--accent-color);
+}
 
 .mob-menu {
   position: fixed;
@@ -1343,6 +1346,9 @@ textarea:hover, textarea:focus {
   width: 40px;
   height: 40px;
   padding: 0;
+}
+.mob-menu__btn:hover, .mob-menu__btn:focus {
+  fill: var(--accent-color);
 }
 
 .mob-nav__item {
