@@ -1316,6 +1316,11 @@ textarea:hover, textarea:focus {
 .menu-btn:hover, .menu-btn:focus {
   fill: var(--accent-color);
 }
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
+}
 
 .mob-menu {
   position: fixed;
@@ -1334,6 +1339,11 @@ textarea:hover, textarea:focus {
 .mob-menu.is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
 }
 
 .mob-menu__btn {
