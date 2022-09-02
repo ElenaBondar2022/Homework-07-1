@@ -192,19 +192,46 @@
                 <h2 class="work-title">Чем мы занимаемся</h2>
                 <ul class="work__list">
                     <li class="work__item">
-                        <img src="images/kod.jpg" Alt="Программист набирает текст" width="370">
+
+                        <img
+                            srcset="
+                                ./images/desktop/box-1-1200@1x.jpeg 1x,
+                                ./images/desktop/box-1-1200@2x.jpeg 2x"
+                            src="./images/desktop/box-1-1200@1x.jpeg"
+                            alt="Программист набирает текст"
+                            width="370"
+                        >
+
                         <div class="work__box">
                             <p class="work__text">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
                         </div>
                     </li>
                     <li class="work__item">
-                        <img src="images/klava.jpg" Alt="Макеты телефонов" width="370">
+
+                        <img
+                            srcset="
+                                ./images/desktop/box-2-1200@1x.jpeg 1x,
+                                ./images/desktop/box-2-1200@2x.jpeg 2x"
+                            src="./images/desktop/box-2-1200@1x.jpeg"
+                            alt="Макеты телефонов"
+                            width="370"
+                        >
+
                         <div class="work__box">
                             <p class="work__text">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
                         </div>
                     </li>
                     <li class="work__item">
-                        <img src="images/ris.jpg" Alt="Выбор цвета дизайнером" width="370">
+
+                        <img
+                            srcset="
+                                ./images/desktop/box-3-1200@1x.jpeg 1x,
+                                ./images/desktop/box-3-1200@2x.jpeg 2x"
+                            src="./images/desktop/box-3-1200@1x.jpeg"
+                            alt="Выбор цвета дизайнером"
+                            width="370"
+                        >
+
                         <div class="work__box">
                             <p class="work__text">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ </p>
                         </div>
@@ -220,7 +247,26 @@
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team__list">
                     <li class="team__item">
-                        <img src="images/men.jpg" Alt="Дизайнер" width="270">
+
+                        <picture>
+                            <source srcset="
+                                        ./images/mobile/team-1-480@1x.jpeg 1x,
+                                        ./images/mobile/team-1-480@2x.jpeg 2x"
+                                    media="(max-width: 767px)">
+                            <source srcset="
+                                        ./images/tablet/team-1-768@1x.jpeg 1x,
+                                        ./images/tablet/team-1-768@2x.jpeg 2x"
+                                    media="(min-width: 768px) and (max-width: 1199px)">
+                            <source srcset="
+                                        ./images/desktop/team-1-1200@1x.jpeg 1x,
+                                        ./images/desktop/team-1-1200@2x.jpeg 2x"
+                                    media="(min-width: 1200px)">
+
+                            <img src="./images/mobile/team-1-480@1x.jpeg"
+                                 alt="Дизайнер"
+                                 width="270">
+                        </picture>
+
                         <h4 class="team__name">Игорь Демьяненко</h4>
                         <p class="team__position">Product Designer</p>
                         <ul class="networks">
@@ -256,7 +302,26 @@
 
                     </li>
                     <li class="team__item">
-                        <img src="images/jen.jpg" Alt="Фронтенд разработчик" width="270">
+
+                        <picture>
+                            <source srcset="
+                                        ./images/mobile/team-2-480@1x.jpeg 1x,
+                                        ./images/mobile/team-2-480@2x.jpeg 2x"
+                                    media="(max-width: 767px)">
+                            <source srcset="
+                                        ./images/tablet/team-2-768@1x.jpeg 1x,
+                                        ./images/tablet/team-2-768@2x.jpeg 2x"
+                                    media="(min-width: 768px) and (max-width: 1199px)">
+                            <source srcset="
+                                        ./images/desktop/team-2-1200@1x.jpeg 1x,
+                                        ./images/desktop/team-2-1200@2x.jpeg 2x"
+                                    media="(min-width: 1200px)">
+
+                            <img src="./images/mobile/team-2-480@1x.jpeg"
+                                 alt="Фронтенд разработчик"
+                                 width="270">
+                        </picture>
+                        
                         <h4 class="team__name">Ольга Репина</h4>
                         <p class="team__position">Frontend Developer</p>
                         <ul class="networks">
@@ -291,7 +356,26 @@
                         </ul>
                     </li>
                     <li class="team__item">
-                        <img src="images/mun.jpg" Alt="Маркетолог" width="270">
+
+                        <picture>
+                            <source srcset="
+                                        ./images/mobile/team-3-480@1x.jpeg 1x,
+                                        ./images/mobile/team-3-480@2x.jpeg 2x"
+                                    media="(max-width: 767px)">
+                            <source srcset="
+                                        ./images/tablet/team-3-768@1x.jpeg 1x,
+                                        ./images/tablet/team-3-768@2x.jpeg 2x"
+                                    media="(min-width: 768px) and (max-width: 1199px)">
+                            <source srcset="
+                                        ./images/desktop/team-3-1200@1x.jpeg 1x,
+                                        ./images/desktop/team-3-1200@2x.jpeg 2x"
+                                    media="(min-width: 1200px)">
+
+                            <img src="./images/mobile/team-3-480@1x.jpeg"
+                                 alt="Маркетолог"
+                                 width="270">
+                        </picture>
+
                         <h4 class="team__name">Николай Тарасов</h4>
                         <p class="team__position">Marketing</p>
                         <ul class="networks">
@@ -326,7 +410,26 @@
                         </ul>
                     </li>
                     <li class="team__item">
-                        <img src="images/end.jpg" Alt="Дизайнер интерфейса" width="270">
+
+                        <picture>
+                            <source srcset="
+                                        ./images/mobile/team-4-480@1x.jpeg 1x,
+                                        ./images/mobile/team-4-480@2x.jpeg 2x"
+                                    media="(max-width: 767px)">
+                            <source srcset="
+                                        ./images/tablet/team-4-768@1x.jpeg 1x,
+                                        ./images/tablet/team-4-768@2x.jpeg 2x"
+                                    media="(min-width: 768px) and (max-width: 1199px)">
+                            <source srcset="
+                                        ./images/desktop/team-4-1200@1x.jpeg 1x,
+                                        ./images/desktop/team-4-1200@2x.jpeg 2x"
+                                    media="(min-width: 1200px)">
+
+                            <img src="./images/mobile/team-4-480@1x.jpeg"
+                                 alt="Дизайнер интерфейса"
+                                 width="270">
+                        </picture>
+
                         <h4 class="team__name">Михаил Ермаков</h4>
                         <p class="team__position">UI Designer</p>
                         <ul class="networks">
